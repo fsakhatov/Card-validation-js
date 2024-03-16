@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    gap: 100px;
+}
+input{
+    font-size: 20px;
+    outline: none;
+    border: 0.1px solid black;
+
+}
+.sec-1{
+    background-image: url(./images/Oval\ Copy\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 250px;
+    position: relative;
+    padding: 30px;
+    gap: 20px;
+    color: white;
+    margin: 100px 0px 30px 100px;
+}
+.sec-1 img{
+    width: 75px;
+    height: 50px;
+    margin-left: 30px;
+}
+.sec-1 h5{
+    font-size: 35px;
+    text-align: center;
+}
+.sec-1 span{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.sec-2 {
+    position: relative;
+    background-image: url(./images/Group\ 6\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 250px;
+    position: relative;
+    padding: 30px;
+    gap: 20px;
+    color: white;
+    margin: 0px 0px 20px 130px;
+}
+.sec-2 img:first-child{
+   
+}
+.sec-2 span{
+    text-align: end;
+    padding: 10px;
+    width: 300px;
+    background: #ADB5BE;
+    height: 35px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    align-self: center;
+}
+
+
+main{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px;
+}
+main h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    white-space: pre;
+}
+main .card-number , main .card-name{
+    width: 380px;
+    border-radius: 15px;
+    height: 50px;
+    padding: 20px;
+}
+main .inputs{
+    width: 80px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 5px;
+}
+main .input-3{
+    width: 190px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.btn{
+    width: 380px;
+    height: 53px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    background-color: #21092F;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+footer{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    display: none;
+    margin-top: -200px;
+}
+.buttons{
+    width: 380px;
+    height: 53px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    background-color: #21092F;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+@media( max-width: 1500px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    justify-content: center;
+    }
+   
+    .cardname{
+        position: absolute;
+        left: 130px;
+    }
+    .carddate{
+        position: absolute;
+        left: 450px;
+    }
+    section .span-2{
+        position: fixed;
+        left: 150px;
+        bottom: 0;
+        top: 350px;
+       
+    }
+    main{
+        position: fixed;
+        margin: 0;
+        top: 700px;
+        padding-top: 0;
+    }
+    footer{
+        position: fixed;
+       top: 870px;
+       left: 150px;
+        
+    }
+}
